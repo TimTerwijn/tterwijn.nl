@@ -3,6 +3,7 @@
 }
 
 main{
+    background-color: wheat;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 100vh;
@@ -28,6 +29,11 @@ section:nth-child(2){
     display: none;
 }
 
+section>img{
+    border-radius: 100%;
+    max-width: 33vw;
+}
+
 article{
     grid-column-end: span 2;
     width: 100%;
@@ -36,7 +42,26 @@ article{
     margin-top: 0.5rem;
 }
 
-img{
-    border-radius: 100%;
-    max-width: 33vw;
+/* social media knoppen */
+article>a{
+    height: 30px;
+    width: 60px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+article>a:nth-child(1){
+    background-color: #017ab4;
+}
+
+article>a:nth-child(2){
+    background-color: white;
+}
+
+article>a:nth-child(3){
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
 }
