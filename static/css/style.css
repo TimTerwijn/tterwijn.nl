@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+/* Container */
 main{
     background-color: wheat;
     display: grid;
@@ -11,6 +12,7 @@ main{
     align-items: center; */
 }
 
+/* Landing page */
 section{
     grid-column-start: 1;
     grid-column-end: 1;
@@ -25,15 +27,18 @@ section{
     align-content: center;
 }
 
+/* Scrollable portfolio details */
 section:nth-child(2){
     display: none;
 }
 
+/* Profile picture */
 section>img{
     border-radius: 100%;
     max-width: 33vw;
 }
 
+/* Social media container */
 article{
     grid-column-end: span 2;
     width: 100%;
@@ -42,7 +47,7 @@ article{
     margin-top: 0.5rem;
 }
 
-/* social media knoppen */
+/* Social media buttons */
 article>a{
     height: 30px;
     width: 60px;
@@ -51,17 +56,19 @@ article>a{
     justify-content: center;
 }
 
+/* LinkedIn button */
 article>a:nth-child(1){
     background-color: #017ab4;
 }
 
+/* Github button */
 article>a:nth-child(2){
     background-color: white;
 }
 
+/* Instagram button */
 article>a:nth-child(3){
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-
 }
