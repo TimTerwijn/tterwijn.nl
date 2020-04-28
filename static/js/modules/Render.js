@@ -1,0 +1,8 @@
+
+function nextPage(){
+    
+}
+
+export{
+    nextPage,
+}
