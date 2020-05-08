@@ -9,7 +9,7 @@ main:nth-child(2){
 main:nth-child(2)>article:nth-child(1){
     background-color: green;
     display: grid;
-    grid-template-rows: 20rem auto;
+    grid-template-rows: 26.6vh;
 }
 
 main:nth-child(2)>article:nth-child(1)>section:nth-child(1){
@@ -26,10 +26,10 @@ main:nth-child(2)>article:nth-child(2){
 
 main:nth-child(2)>article:nth-child(2)>section{
     background-color: pink;
-    height: 20rem;
-    margin-bottom: 20rem;
+    height: 33vh;
+    margin: 10vh 0;
     display: grid;
-    grid-template-columns: auto 20rem;
+    grid-template-columns: auto 33vh;
     grid-template-rows: 50% 50%;
 }
 
