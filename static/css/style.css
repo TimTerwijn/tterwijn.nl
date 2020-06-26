@@ -53,17 +53,17 @@ section>a{
 }
 
 /* LinkedIn button */
-article>a:nth-child(1){
+section>a:nth-child(1){
     background-color: #017ab4;
 }
 
 /* Github button */
-article>a:nth-child(2){
+section>a:nth-child(2){
     background-color: white;
 }
 
 /* Instagram button */
-article>a:nth-child(3){
+section>a:nth-child(3){
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
